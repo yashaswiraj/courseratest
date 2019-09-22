@@ -1,0 +1,154 @@
+body
+{
+	font-size: 16px;
+	color: #fff;
+	background-color: #61122f;
+	font-family: 'Oxygen',sans-serif;
+}
+/*HEADER*/
+#header-nav
+{
+background-color: #f6b319;
+border-radius:0;
+border:0;
+}
+#logo-img {
+background:url('https://image3.mouthshut.com/images/imagesp/925718775s.jpg') no-repeat;
+width:110px;
+height:110px;
+background-size: 105px 105px;
+margin:10px 15px 10px 0px;
+border-radius: 1100px;
+border:3px solid green;
+}
+.navbar-brand
+{
+	padding-top: 25px;
+}
+.navbar-brand a:hover,.navbar-brand a:focus
+{
+text-decoration: none;
+}
+.navbar-brand h1
+{
+	font-family: 'lora',serif;
+	color:#557c3e;
+	font-size: 1.8em;
+	text-transform: uppercase;
+	font-weight:bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+	padding-top: 10px;
+}
+#nav-list
+{
+	margin-top: 10px;
+}
+#nav-list a
+{
+ color:#951C49;
+ text-align:center;
+}
+#nav-list a:hover,#nav-list li:hover
+{
+	background-color: #E7E7E7;	
+}
+#nav-list a span
+{
+ font-size:1.8em;
+}
+#phone a
+{
+text-align:right;
+padding-top: 20px;
+padding-bottom: 0px;
+}
+#phone div
+{
+	color:#557c3e;
+	text-align: right;
+	padding-right: 15px;
+}
+#order a
+{
+	margin-top:-6px;
+	padding: 13px 0px 15px;
+}
+.navbar-header button.navbar-toggle,.navbar-header .icon-bar;
+{
+	border:1px solid #61122f;
+}
+.navbar-header button.navbar-toggle
+{
+	clear:both;
+	margin-top: -30px;
+}
+#order a span
+{
+    font-size:1em;
+	border:0px solid black;
+}
+
+
+@media(min-width: 1200px)
+{
+  .jumbotron
+  {
+  	background:url('../images/pizza.jpg') no-repeat;
+  	height:853px;
+  	width:1280px;
+  	margin:auto;
+  	box-shadow: 0 0 50px #3F0C1F;
+  	border:2px solid #3F0C1F;
+  }
+  
+
+}
+@media (min-width:992px) and @media (max-width: 1199px) 
+{
+
+
+}
+@media(min-width: 768px) and @media (max-width:992px)
+{
+
+
+}
+@media (max-width: 767px)
+{
+   .navbar-brand  h1
+  {
+   	padding-top: 0px;
+   	font-size:5vw;
+   	margin-top: 0px;
+  }
+
+   #collapsible-nav a{
+   	font-size: 1.2em;
+   }
+  
+  #collapsible-nav a span{
+   	font-size: 1em;
+   	margin-right:5px;
+
+   }
+  #order a span
+   {
+   	margin-left:5px;
+
+   	vertical-align:bottom;
+
+   }
+   #order a
+   {
+   	padding:0px; 
+   margin-top:0px;
+   }
+   #order a img
+   {
+   	height:33px;
+   }
+
+}
